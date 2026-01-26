@@ -73,7 +73,11 @@
       margin: auto;
       padding: 30px 20px;
     }
-
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.4rem;
+    }
     section {
       margin-bottom: 40px;
     }
@@ -128,7 +132,7 @@
 
     <section id="about">
       <h2>About Me</h2>
-      <p>U.S. Citizen living in Staten Island, NY. I’m an engineer with a strong foundation in computer and electrical systems, now focused on cybersecurity and backend development. My academic training and hands-on experience span secure software development, system architecture, and scalable infrastructure design. I specialize in protecting digital assets, analyzing vulnerabilities, and building efficient backend systems to support robust, secure applications. With a passion for solving complex technical challenges, I bring an engineer’s mindset to every aspect of secure development and system optimization.</p>
+      <p>U.S. Citizen living in New York. I’m an engineer with a strong foundation in computer and electrical systems, now focused on cybersecurity and backend development. My academic training and hands-on experience span secure software development, system architecture, and scalable infrastructure design. I specialize in protecting digital assets, analyzing vulnerabilities, and building efficient backend systems to support robust, secure applications. With a passion for solving complex technical challenges, I bring an engineer’s mindset to every aspect of secure development and system optimization.</p>
     </section>
 
     <section id="education">
@@ -141,6 +145,13 @@
           </a>
         </strong> – Per Scholas (Jun 2024 – Oct 2024)
       </p>
+      <div class="skills-grid">
+        <span>Networking</span>
+        <span>Virtualization</span>
+        <span>Vulnerability Assessment</span>
+        <span>Threat Detection</span>
+        <span>Incident Response</span>
+      </div>
       <ul>
         <li>Networking, Virtualization, Vulnerability Assessment</li>
         <li>Threat Detection & Monitoring, Incident Response</li>
@@ -249,5 +260,6 @@
   </script>
 </body>
 </html>
+
 
 
